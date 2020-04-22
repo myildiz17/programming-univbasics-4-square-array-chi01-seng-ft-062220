@@ -30,3 +30,12 @@ artists.push(next_artist)
 def using_push(array, string)
   array.push(string)
 end
+
+def output_array_elements(array)
+  counter = 0
+ 
+  while array[counter] do
+    puts array[counter]
+    counter += 1
+  end
+end
