@@ -42,3 +42,22 @@ end
 
 array = ["Spring", "Summer", "Fall", "Winter"]
 array.length
+
+def return_string_array(array)
+  count = 0
+  new_array = []
+  while count < array.length do
+    new_array.push(array[count].to_s) # OR new_array << array[count].to_s
+    count += 1
+  end
+  new_array
+end
+
+2.6.1 :001 > original_array = [1, 2, 3]
+ => [1, 2, 3]
+2.6.1 :002 > return_string_array(original_array)
+ => ["1", "2", "3"]
+2.6.1 :003 > original_array
+ => ["1", "2", "3"]
+
+ 
