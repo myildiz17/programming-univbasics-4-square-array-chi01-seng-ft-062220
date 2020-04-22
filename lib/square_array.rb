@@ -5,7 +5,7 @@ while count < array.length do
   square_array.push (array[count]**2)
   count +=1
 end
-p square_array
+print square_array
 end
 
 square_array [1,2,3]
