@@ -18,3 +18,15 @@ while array[counter] do
   puts array[counter]
   counter += 1
 end
+
+
+picnic_ingredients[2] = "Belgian chocolate"
+=> "Belgian chocolate"
+
+artists = ["Hozier", "Ariana Grande", "Usher"]
+next_artist = "Beyonce"
+artists.push(next_artist)
+
+def using_push(array, string)
+  array.push(string)
+end
