@@ -8,4 +8,4 @@ while array.length < 3
 end
 end
 
-square_array [1,2,3]
+puts square_array [1,2,3]
